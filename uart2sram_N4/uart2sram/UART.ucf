@@ -1,0 +1,8 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "txd" LOC = T20;
+NET "rxd" LOC = T19;
+NET "rec_sig" LOC = W3;
+NET "frame_err" LOC = R7;
+NET "clk" LOC = D11;

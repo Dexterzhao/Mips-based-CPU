@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "G:/multi-cycles-version/uart2sram_N4/uart2sram/SRAM_loader.xst" -ofn "G:/multi-cycles-version/uart2sram_N4/uart2sram/SRAM_loader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SRAM_loader.ucf -p xc7a100t-csg324-1 SRAM_loader.ngc SRAM_loader.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SRAM_loader_map.ncd SRAM_loader.ngd SRAM_loader.pcf 
+par -w -intstyle ise -ol high -mt off SRAM_loader_map.ncd SRAM_loader.ncd SRAM_loader.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml SRAM_loader.twx SRAM_loader.ncd -o SRAM_loader.twr SRAM_loader.pcf -ucf SRAM_loader.ucf 
+bitgen -intstyle ise -f SRAM_loader.ut SRAM_loader.ncd 
+xst -intstyle ise -ifn "G:/multi-cycles-version/uart2sram_N4/uart2sram/SRAM_loader.xst" -ofn "G:/multi-cycles-version/uart2sram_N4/uart2sram/SRAM_loader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SRAM_loader.ucf -p xc7a100t-csg324-1 SRAM_loader.ngc SRAM_loader.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SRAM_loader_map.ncd SRAM_loader.ngd SRAM_loader.pcf 
+par -w -intstyle ise -ol high -mt off SRAM_loader_map.ncd SRAM_loader.ncd SRAM_loader.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml SRAM_loader.twx SRAM_loader.ncd -o SRAM_loader.twr SRAM_loader.pcf -ucf SRAM_loader.ucf 
+bitgen -intstyle ise -f SRAM_loader.ut SRAM_loader.ncd 
+xst -intstyle ise -ifn "G:/multi-cycles-version/uart2sram_N4/uart2sram/SRAM_loader.xst" -ofn "G:/multi-cycles-version/uart2sram_N4/uart2sram/SRAM_loader.syr" 

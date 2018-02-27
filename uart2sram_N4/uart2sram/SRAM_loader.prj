@@ -1,0 +1,5 @@
+verilog work "SRAM.v"
+verilog work "Receiver.v"
+verilog work "N4_DISP.v"
+verilog work "BaudRate.v"
+verilog work "SRAM_loader.v"

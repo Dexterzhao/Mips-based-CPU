@@ -1,0 +1,3 @@
+verilog work "SRAM.v"
+verilog work "N4_DISP.v"
+verilog work "SRAM_realmodetest.v"

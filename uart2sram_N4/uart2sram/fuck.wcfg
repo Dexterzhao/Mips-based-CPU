@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="F:/ISE/work/uart2sram/uart2sram/loader_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="loader_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/loader_test/write" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write</obj_property>
+      <obj_property name="ObjectShortName">write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/loader_test/read" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read</obj_property>
+      <obj_property name="ObjectShortName">read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/loader_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/loader_test/rxd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rxd</obj_property>
+      <obj_property name="ObjectShortName">rxd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/loader_test/uut/half_word" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">half_word</obj_property>
+      <obj_property name="ObjectShortName">half_word</obj_property>
+   </wvobject>
+   <wvobject fp_name="/loader_test/uut/write_sig" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write_sig</obj_property>
+      <obj_property name="ObjectShortName">write_sig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/loader_test/uut/saver" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">saver[15:0]</obj_property>
+      <obj_property name="ObjectShortName">saver[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/loader_test/uut/cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[3:0]</obj_property>
+   </wvobject>
+</wave_config>

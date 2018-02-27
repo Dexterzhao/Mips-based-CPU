@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=G:\multi-cycles-version\uart2sram_N4\uart2sram\SRAM_loader.ncd
+OUTFILE=G:\multi-cycles-version\uart2sram_N4\uart2sram\SRAM_loader.bit
+FAMILY=Artix7
+PART=xc7a100t-1csg324
+WORKINGDIR=G:\multi-cycles-version\uart2sram_N4\uart2sram
+LICENSE=WebPack
+USER_INFO=211167658_0_0_778

@@ -1,0 +1,848 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: SRAM_realmodetest.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "SRAM_realmodetest.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "SRAM_realmodetest"
+Output Format                      : NGC
+Target Device                      : xc7a100t-1-csg324
+
+---- Source Options
+Top Module Name                    : SRAM_realmodetest
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "G:\multi-cycles-version\uart2sram_N4\sram\sram\SRAM.v" into library work
+Parsing module <SRAM>.
+Analyzing Verilog file "G:\multi-cycles-version\uart2sram_N4\sram\sram\N4_DISP.v" into library work
+Parsing module <N4_DISP>.
+Analyzing Verilog file "G:\multi-cycles-version\uart2sram_N4\sram\sram\SRAM_realmodetest.v" into library work
+Parsing module <SRAM_realmodetest>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <SRAM_realmodetest>.
+WARNING:HDLCompiler:1127 - "G:\multi-cycles-version\uart2sram_N4\sram\sram\SRAM_realmodetest.v" Line 65: Assignment to write_sig ignored, since the identifier is never used
+
+Elaborating module <N4_DISP>.
+WARNING:HDLCompiler:413 - "G:\multi-cycles-version\uart2sram_N4\sram\sram\N4_DISP.v" Line 50: Result of 21-bit expression is truncated to fit in 20-bit target.
+WARNING:HDLCompiler:413 - "G:\multi-cycles-version\uart2sram_N4\sram\sram\N4_DISP.v" Line 56: Result of 21-bit expression is truncated to fit in 20-bit target.
+WARNING:HDLCompiler:413 - "G:\multi-cycles-version\uart2sram_N4\sram\sram\N4_DISP.v" Line 62: Result of 21-bit expression is truncated to fit in 20-bit target.
+WARNING:HDLCompiler:413 - "G:\multi-cycles-version\uart2sram_N4\sram\sram\N4_DISP.v" Line 68: Result of 21-bit expression is truncated to fit in 20-bit target.
+WARNING:HDLCompiler:413 - "G:\multi-cycles-version\uart2sram_N4\sram\sram\N4_DISP.v" Line 74: Result of 21-bit expression is truncated to fit in 20-bit target.
+WARNING:HDLCompiler:413 - "G:\multi-cycles-version\uart2sram_N4\sram\sram\N4_DISP.v" Line 80: Result of 21-bit expression is truncated to fit in 20-bit target.
+WARNING:HDLCompiler:413 - "G:\multi-cycles-version\uart2sram_N4\sram\sram\N4_DISP.v" Line 86: Result of 21-bit expression is truncated to fit in 20-bit target.
+WARNING:HDLCompiler:413 - "G:\multi-cycles-version\uart2sram_N4\sram\sram\N4_DISP.v" Line 92: Result of 21-bit expression is truncated to fit in 20-bit target.
+
+Elaborating module <SRAM>.
+WARNING:HDLCompiler:413 - "G:\multi-cycles-version\uart2sram_N4\sram\sram\SRAM.v" Line 52: Result of 12-bit expression is truncated to fit in 11-bit target.
+WARNING:HDLCompiler:91 - "G:\multi-cycles-version\uart2sram_N4\sram\sram\SRAM.v" Line 132: Signal <enable> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "G:\multi-cycles-version\uart2sram_N4\sram\sram\SRAM.v" Line 134: Signal <writenable> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "G:\multi-cycles-version\uart2sram_N4\sram\sram\SRAM.v" Line 150: Signal <enable> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "G:\multi-cycles-version\uart2sram_N4\sram\sram\SRAM.v" Line 152: Signal <writenable> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "G:\multi-cycles-version\uart2sram_N4\sram\sram\SRAM.v" Line 168: Signal <address> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "G:\multi-cycles-version\uart2sram_N4\sram\sram\SRAM.v" Line 178: Signal <data_sram> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "G:\multi-cycles-version\uart2sram_N4\sram\sram\SRAM.v" Line 192: Signal <address> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "G:\multi-cycles-version\uart2sram_N4\sram\sram\SRAM.v" Line 202: Signal <data_sram> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "G:\multi-cycles-version\uart2sram_N4\sram\sram\SRAM.v" Line 207: Signal <address> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "G:\multi-cycles-version\uart2sram_N4\sram\sram\SRAM.v" Line 217: Signal <data_write> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "G:\multi-cycles-version\uart2sram_N4\sram\sram\SRAM.v" Line 222: Signal <address> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "G:\multi-cycles-version\uart2sram_N4\sram\sram\SRAM.v" Line 237: Signal <data_write> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:1127 - "G:\multi-cycles-version\uart2sram_N4\sram\sram\SRAM_realmodetest.v" Line 81: Assignment to read_done ignored, since the identifier is never used
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <SRAM_realmodetest>.
+    Related source file is "G:\multi-cycles-version\uart2sram_N4\sram\sram\SRAM_realmodetest.v".
+INFO:Xst:3210 - "G:\multi-cycles-version\uart2sram_N4\sram\sram\SRAM_realmodetest.v" line 81: Output port <write_done> of the instance <SRAM_Unit> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "G:\multi-cycles-version\uart2sram_N4\sram\sram\SRAM_realmodetest.v" line 81: Output port <read_done> of the instance <SRAM_Unit> is unconnected or connected to loadless signal.
+    Found 16-bit adder for signal <address2SRAM> created at line 55.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <SRAM_realmodetest> synthesized.
+
+Synthesizing Unit <N4_DISP>.
+    Related source file is "G:\multi-cycles-version\uart2sram_N4\sram\sram\N4_DISP.v".
+    Found 20-bit register for signal <timer>.
+    Found 8-bit register for signal <LED_ctrl>.
+    Found 4-bit register for signal <LED_content>.
+    Found 20-bit adder for signal <timer[19]_GND_2_o_add_18_OUT> created at line 92.
+    Found 16x8-bit Read Only RAM for signal <LED_out>
+    Found 20-bit comparator greater for signal <timer[19]_GND_2_o_LessThan_4_o> created at line 46
+    Found 20-bit comparator greater for signal <timer[19]_GND_2_o_LessThan_6_o> created at line 52
+    Found 20-bit comparator greater for signal <timer[19]_GND_2_o_LessThan_8_o> created at line 58
+    Found 20-bit comparator greater for signal <timer[19]_GND_2_o_LessThan_10_o> created at line 64
+    Found 20-bit comparator greater for signal <timer[19]_GND_2_o_LessThan_12_o> created at line 70
+    Found 20-bit comparator greater for signal <timer[19]_GND_2_o_LessThan_14_o> created at line 76
+    Found 20-bit comparator greater for signal <timer[19]_GND_2_o_LessThan_16_o> created at line 82
+    Found 20-bit comparator greater for signal <timer[19]_GND_2_o_LessThan_18_o> created at line 88
+    Summary:
+	inferred   1 RAM(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred  32 D-type flip-flop(s).
+	inferred   8 Comparator(s).
+	inferred  20 Multiplexer(s).
+Unit <N4_DISP> synthesized.
+
+Synthesizing Unit <SRAM>.
+    Related source file is "G:\multi-cycles-version\uart2sram_N4\sram\sram\SRAM.v".
+        _Idle = 0
+        _IdleJmp = 1
+        _Read0 = 2
+        _Read1 = 3
+        _Read2 = 4
+        _Read3 = 5
+        _Read4 = 6
+        _Write0 = 8
+        _Write1 = 9
+        _Write2 = 10
+        _Write3 = 11
+    Found 1-bit register for signal <read_done>.
+    Found 1-bit register for signal <write_done>.
+    Found 4-bit register for signal <state>.
+    Found 11-bit register for signal <second_timer>.
+    Found 1-bit register for signal <real_clk>.
+    Found 11-bit adder for signal <second_timer[10]_GND_3_o_add_1_OUT> created at line 52.
+    Found 16-bit adder for signal <address[15]_GND_3_o_add_20_OUT> created at line 222.
+    Found 16x13-bit Read Only RAM for signal <_n0402>
+WARNING:Xst:737 - Found 1-bit latch for signal <cs>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <we>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <oe>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_write16<15>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_write16<12>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_write16<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <next_state<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <next_state<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <next_state<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <next_state<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <addr2sram<22>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <addr2sram<16>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <addr2sram<15>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <addr2sram<14>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <addr2sram<13>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <addr2sram<12>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <addr2sram<11>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <addr2sram<10>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <addr2sram<9>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <addr2sram<8>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <addr2sram<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <addr2sram<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <addr2sram<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <addr2sram<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <addr2sram<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <addr2sram<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <addr2sram<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <addr2sram<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<31>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<30>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<29>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<28>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<27>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<26>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<25>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<24>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<23>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<22>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<21>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<20>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<19>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<18>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<17>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<16>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<15>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<14>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<13>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<12>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<11>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<10>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<9>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<8>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <data_read<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <data_sram<15>> created at line 243
+    Found 1-bit tristate buffer for signal <data_sram<14>> created at line 243
+    Found 1-bit tristate buffer for signal <data_sram<13>> created at line 243
+    Found 1-bit tristate buffer for signal <data_sram<12>> created at line 243
+    Found 1-bit tristate buffer for signal <data_sram<11>> created at line 243
+    Found 1-bit tristate buffer for signal <data_sram<10>> created at line 243
+    Found 1-bit tristate buffer for signal <data_sram<9>> created at line 243
+    Found 1-bit tristate buffer for signal <data_sram<8>> created at line 243
+    Found 1-bit tristate buffer for signal <data_sram<7>> created at line 243
+    Found 1-bit tristate buffer for signal <data_sram<6>> created at line 243
+    Found 1-bit tristate buffer for signal <data_sram<5>> created at line 243
+    Found 1-bit tristate buffer for signal <data_sram<4>> created at line 243
+    Found 1-bit tristate buffer for signal <data_sram<3>> created at line 243
+    Found 1-bit tristate buffer for signal <data_sram<2>> created at line 243
+    Found 1-bit tristate buffer for signal <data_sram<1>> created at line 243
+    Found 1-bit tristate buffer for signal <data_sram<0>> created at line 243
+    Found 11-bit comparator lessequal for signal <n0001> created at line 53
+    Found 11-bit comparator greater for signal <second_timer[10]_GND_3_o_LessThan_5_o> created at line 58
+    Summary:
+	inferred   1 RAM(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred  18 D-type flip-flop(s).
+	inferred  60 Latch(s).
+	inferred   2 Comparator(s).
+	inferred  42 Multiplexer(s).
+	inferred  16 Tristate(s).
+Unit <SRAM> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 16x13-bit single-port Read Only RAM                   : 1
+ 16x8-bit single-port Read Only RAM                    : 1
+# Adders/Subtractors                                   : 4
+ 11-bit adder                                          : 1
+ 16-bit adder                                          : 2
+ 20-bit adder                                          : 1
+# Registers                                            : 8
+ 1-bit register                                        : 3
+ 11-bit register                                       : 1
+ 20-bit register                                       : 1
+ 4-bit register                                        : 2
+ 8-bit register                                        : 1
+# Latches                                              : 60
+ 1-bit latch                                           : 60
+# Comparators                                          : 10
+ 11-bit comparator greater                             : 1
+ 11-bit comparator lessequal                           : 1
+ 20-bit comparator greater                             : 8
+# Multiplexers                                         : 62
+ 1-bit 2-to-1 multiplexer                              : 41
+ 11-bit 2-to-1 multiplexer                             : 1
+ 20-bit 2-to-1 multiplexer                             : 8
+ 4-bit 2-to-1 multiplexer                              : 7
+ 8-bit 2-to-1 multiplexer                              : 5
+# Tristates                                            : 16
+ 1-bit tristate buffer                                 : 16
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1710 - FF/Latch <data_write16_12> (without init value) has a constant value of 1 in block <SRAM_Unit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <addr2sram_22> (without init value) has a constant value of 0 in block <SRAM_Unit>. This FF/Latch will be trimmed during the optimization process.
+
+Synthesizing (advanced) Unit <N4_DISP>.
+INFO:Xst:3231 - The small RAM <Mram_LED_out> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <LED_content>   |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <LED_out>       |          |
+    -----------------------------------------------------------------------
+Unit <N4_DISP> synthesized (advanced).
+
+Synthesizing (advanced) Unit <SRAM>.
+The following registers are absorbed into counter <second_timer>: 1 register on signal <second_timer>.
+Unit <SRAM> synthesized (advanced).
+
+Synthesizing (advanced) Unit <SRAM_realmodetest>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <SRAM_Unit/Mram__n0402> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 13-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <SRAM_Unit/state> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <SRAM_realmodetest> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 16x13-bit single-port distributed Read Only RAM       : 1
+ 16x8-bit single-port distributed Read Only RAM        : 1
+# Adders/Subtractors                                   : 3
+ 16-bit adder                                          : 2
+ 20-bit adder                                          : 1
+# Counters                                             : 1
+ 11-bit up counter                                     : 1
+# Registers                                            : 37
+ Flip-Flops                                            : 37
+# Comparators                                          : 10
+ 11-bit comparator greater                             : 1
+ 11-bit comparator lessequal                           : 1
+ 20-bit comparator greater                             : 8
+# Multiplexers                                         : 60
+ 1-bit 2-to-1 multiplexer                              : 40
+ 20-bit 2-to-1 multiplexer                             : 8
+ 4-bit 2-to-1 multiplexer                              : 7
+ 8-bit 2-to-1 multiplexer                              : 5
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <SRAM_Unit/addr2sram_22> (without init value) has a constant value of 0 in block <SRAM_realmodetest>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <SRAM_Unit/data_write16_12> (without init value) has a constant value of 1 in block <SRAM_realmodetest>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <SRAM_Unit/addr2sram_10> in Unit <SRAM_realmodetest> is equivalent to the following 5 FFs/Latches, which will be removed : <SRAM_Unit/addr2sram_11> <SRAM_Unit/addr2sram_12> <SRAM_Unit/addr2sram_13> <SRAM_Unit/addr2sram_14> <SRAM_Unit/addr2sram_15> 
+
+Optimizing unit <SRAM_realmodetest> ...
+
+Optimizing unit <N4_DISP> ...
+WARNING:Xst:1710 - FF/Latch <SRAM_Unit/second_timer_4> (without init value) has a constant value of 0 in block <SRAM_realmodetest>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SRAM_Unit/second_timer_5> (without init value) has a constant value of 0 in block <SRAM_realmodetest>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SRAM_Unit/second_timer_6> (without init value) has a constant value of 0 in block <SRAM_realmodetest>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SRAM_Unit/second_timer_7> (without init value) has a constant value of 0 in block <SRAM_realmodetest>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SRAM_Unit/second_timer_8> (without init value) has a constant value of 0 in block <SRAM_realmodetest>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SRAM_Unit/second_timer_9> (without init value) has a constant value of 0 in block <SRAM_realmodetest>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SRAM_Unit/second_timer_10> (without init value) has a constant value of 0 in block <SRAM_realmodetest>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <N4_7Segment/timer_19> (without init value) has a constant value of 0 in block <SRAM_realmodetest>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <N4_7Segment/timer_18> (without init value) has a constant value of 0 in block <SRAM_realmodetest>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <N4_7Segment/timer_17> (without init value) has a constant value of 0 in block <SRAM_realmodetest>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block SRAM_realmodetest, actual ratio is 0.
+Latch SRAM_Unit/data_write16_15 has been replicated 5 time(s) to handle iob=true attribute.
+Latch SRAM_Unit/data_write16_7 has been replicated 5 time(s) to handle iob=true attribute.
+Latch SRAM_Unit/addr2sram_10 has been replicated 5 time(s) to handle iob=true attribute.
+Latch SRAM_Unit/cs has been replicated 2 time(s) to handle iob=true attribute.
+Latch SRAM_Unit/oe has been replicated 1 time(s) to handle iob=true attribute.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 38
+ Flip-Flops                                            : 38
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : SRAM_realmodetest.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 208
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 16
+#      LUT2                        : 10
+#      LUT3                        : 9
+#      LUT4                        : 59
+#      LUT5                        : 15
+#      LUT6                        : 53
+#      MUXCY                       : 19
+#      MUXF7                       : 1
+#      VCC                         : 1
+#      XORCY                       : 21
+# FlipFlops/Latches                : 109
+#      FD                          : 1
+#      FDC                         : 25
+#      FDE                         : 4
+#      FDR                         : 1
+#      FDS                         : 7
+#      LD                          : 71
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 71
+#      IBUF                        : 11
+#      IOBUF                       : 16
+#      OBUF                        : 44
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              75  out of  126800     0%  
+ Number of Slice LUTs:                  165  out of  63400     0%  
+    Number used as Logic:               165  out of  63400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    201
+   Number with an unused Flip Flop:     126  out of    201    62%  
+   Number with an unused LUT:            36  out of    201    17%  
+   Number of fully used LUT-FF pairs:    39  out of    201    19%  
+   Number of unique control sets:        11
+
+IO Utilization: 
+ Number of IOs:                          72
+ Number of bonded IOBs:                  72  out of    210    34%  
+    IOB Flip Flops/Latches:              34
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------------------------+----------------------------------+-------+
+Clock Signal                                         | Clock buffer(FF name)            | Load  |
+-----------------------------------------------------+----------------------------------+-------+
+SRAM_Unit/Mram__n04027(SRAM_Unit/Mram__n040271:O)    | NONE(*)(SRAM_Unit/next_state_2)  | 4     |
+SRAM_Unit/real_clk                                   | NONE(SRAM_Unit/state_0)          | 4     |
+SRAM_Unit/Mram__n04026(SRAM_Unit/Mram__n040261:O)    | NONE(*)(SRAM_Unit/addr2sram_16)  | 17    |
+SRAM_Unit/Mram__n04028(SRAM_Unit/Mram__n0402911:O)   | NONE(*)(SRAM_Unit/data_write16_7)| 12    |
+SRAM_Unit/Mram__n04029(SRAM_Unit/Mram__n040291:O)    | NONE(*)(SRAM_Unit/oe)            | 6     |
+SRAM_Unit/Mram__n04024(SRAM_Unit/Mram__n040241:O)    | NONE(*)(SRAM_Unit/data_read_0)   | 16    |
+SRAM_Unit/Mram__n0402112(SRAM_Unit/Mram__n04021121:O)| NONE(*)(SRAM_Unit/data_read_16)  | 16    |
+clk                                                  | BUFGP                            | 34    |
+-----------------------------------------------------+----------------------------------+-------+
+(*) These 6 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 4.256ns (Maximum Frequency: 234.962MHz)
+   Minimum input arrival time before clock: 2.071ns
+   Maximum output required time after clock: 1.836ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 4.256ns (frequency: 234.962MHz)
+  Total number of paths / destination ports: 7436 / 46
+-------------------------------------------------------------------------
+Delay:               4.256ns (Levels of Logic = 5)
+  Source:            N4_7Segment/timer_8 (FF)
+  Destination:       N4_7Segment/timer_16 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: N4_7Segment/timer_8 to N4_7Segment/timer_16
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             11   0.478   1.005  N4_7Segment/timer_8 (N4_7Segment/timer_8)
+     LUT6:I0->O            1   0.124   0.421  N4_7Segment/timer[19]_GND_2_o_LessThan_18_o21 (N4_7Segment/timer[19]_GND_2_o_LessThan_18_o2)
+     LUT4:I3->O            3   0.124   0.730  N4_7Segment/timer[19]_GND_2_o_LessThan_18_o23 (N4_7Segment/timer[19]_GND_2_o_LessThan_18_o)
+     LUT6:I3->O            1   0.124   0.421  N4_7Segment/Mmux_LED_ctrl[7]_PWR_2_o_mux_41_OUT11_SW0 (N75)
+     LUT6:I5->O           21   0.124   0.551  N4_7Segment/_n0109_inv1 (N4_7Segment/_n0109_inv)
+     LUT4:I3->O            1   0.124   0.000  N4_7Segment/timer_16_rstpot (N4_7Segment/timer_16_rstpot)
+     FDC:D                     0.030          N4_7Segment/timer_16
+    ----------------------------------------
+    Total                      4.256ns (1.128ns logic, 3.128ns route)
+                                       (26.5% logic, 73.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'SRAM_Unit/Mram__n04027'
+  Total number of paths / destination ports: 5 / 3
+-------------------------------------------------------------------------
+Offset:              0.858ns (Levels of Logic = 2)
+  Source:            read (PAD)
+  Destination:       SRAM_Unit/next_state_0 (LATCH)
+  Destination Clock: SRAM_Unit/Mram__n04027 falling
+
+  Data Path: read to SRAM_Unit/next_state_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.001   0.722  read_IBUF (read_IBUF)
+     LUT6:I3->O            1   0.124   0.000  SRAM_Unit/Mmux_state[3]_next_state[3]_wide_mux_27_OUT<0>11 (SRAM_Unit/state[3]_next_state[3]_wide_mux_27_OUT<0>)
+     LD:D                      0.011          SRAM_Unit/next_state_0
+    ----------------------------------------
+    Total                      0.858ns (0.136ns logic, 0.722ns route)
+                                       (15.9% logic, 84.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'SRAM_Unit/real_clk'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              1.051ns (Levels of Logic = 1)
+  Source:            rst (PAD)
+  Destination:       SRAM_Unit/state_0 (FF)
+  Destination Clock: SRAM_Unit/real_clk rising
+
+  Data Path: rst to SRAM_Unit/state_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            52   0.001   0.556  rst_IBUF (N4_7Segment/rst_inv)
+     FDC:CLR                   0.494          SRAM_Unit/state_0
+    ----------------------------------------
+    Total                      1.051ns (0.495ns logic, 0.556ns route)
+                                       (47.1% logic, 52.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'SRAM_Unit/Mram__n04026'
+  Total number of paths / destination ports: 60 / 9
+-------------------------------------------------------------------------
+Offset:              2.002ns (Levels of Logic = 3)
+  Source:            switch<1> (PAD)
+  Destination:       SRAM_Unit/addr2sram_5 (LATCH)
+  Destination Clock: SRAM_Unit/Mram__n04026 falling
+
+  Data Path: switch<1> to SRAM_Unit/addr2sram_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   0.001   0.803  switch_1_IBUF (SRAM_Unit/Madd_address[15]_GND_3_o_add_20_OUT_lut<2>)
+     LUT5:I1->O            4   0.124   0.939  SRAM_Unit/Mmux_state[3]_addr2sram[22]_wide_mux_28_OUT<5>111 (SRAM_Unit/Mmux_state[3]_addr2sram[22]_wide_mux_28_OUT<5>11)
+     LUT6:I1->O            1   0.124   0.000  SRAM_Unit/Mmux_state[3]_addr2sram[22]_wide_mux_28_OUT<7>11 (SRAM_Unit/state[3]_addr2sram[22]_wide_mux_28_OUT<7>)
+     LD:D                      0.011          SRAM_Unit/addr2sram_7
+    ----------------------------------------
+    Total                      2.002ns (0.260ns logic, 1.742ns route)
+                                       (13.0% logic, 87.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'SRAM_Unit/Mram__n04024'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              0.417ns (Levels of Logic = 1)
+  Source:            data_sram<0> (PAD)
+  Destination:       SRAM_Unit/data_read_0 (LATCH)
+  Destination Clock: SRAM_Unit/Mram__n04024 falling
+
+  Data Path: data_sram<0> to SRAM_Unit/data_read_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IOBUF:IO->O           2   0.001   0.405  data_sram_0_IOBUF (N17)
+     LD:D                      0.011          SRAM_Unit/data_read_0
+    ----------------------------------------
+    Total                      0.417ns (0.012ns logic, 0.405ns route)
+                                       (2.9% logic, 97.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'SRAM_Unit/Mram__n0402112'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              0.417ns (Levels of Logic = 1)
+  Source:            data_sram<0> (PAD)
+  Destination:       SRAM_Unit/data_read_16 (LATCH)
+  Destination Clock: SRAM_Unit/Mram__n0402112 falling
+
+  Data Path: data_sram<0> to SRAM_Unit/data_read_16
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IOBUF:IO->O           2   0.001   0.405  data_sram_0_IOBUF (N17)
+     LD:D                      0.011          SRAM_Unit/data_read_16
+    ----------------------------------------
+    Total                      0.417ns (0.012ns logic, 0.405ns route)
+                                       (2.9% logic, 97.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 57 / 42
+-------------------------------------------------------------------------
+Offset:              2.071ns (Levels of Logic = 3)
+  Source:            rst (PAD)
+  Destination:       N4_7Segment/LED_content_3 (FF)
+  Destination Clock: clk rising
+
+  Data Path: rst to N4_7Segment/LED_content_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            52   0.001   0.873  rst_IBUF (N4_7Segment/rst_inv)
+     LUT4:I1->O            1   0.124   0.919  N4_7Segment/Mmux_LED_content[3]_data_in[31]_mux_45_OUT34_SW0_SW2 (N46)
+     LUT6:I1->O            1   0.124   0.000  N4_7Segment/LED_content_0_dpot (N4_7Segment/LED_content_0_dpot)
+     FDE:D                     0.030          N4_7Segment/LED_content_0
+    ----------------------------------------
+    Total                      2.071ns (0.279ns logic, 1.792ns route)
+                                       (13.5% logic, 86.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 36 / 15
+-------------------------------------------------------------------------
+Offset:              1.836ns (Levels of Logic = 2)
+  Source:            N4_7Segment/LED_content_0 (FF)
+  Destination:       LED_out<7> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: N4_7Segment/LED_content_0 to LED_out<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             10   0.478   0.835  N4_7Segment/LED_content_0 (N4_7Segment/LED_content_0)
+     LUT4:I0->O            1   0.124   0.399  N4_7Segment/Mram_LED_out51 (LED_out_5_OBUF)
+     OBUF:I->O                 0.000          LED_out_5_OBUF (LED_out<5>)
+    ----------------------------------------
+    Total                      1.836ns (0.602ns logic, 1.234ns route)
+                                       (32.8% logic, 67.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'SRAM_Unit/Mram__n04028'
+  Total number of paths / destination ports: 12 / 12
+-------------------------------------------------------------------------
+Offset:              1.024ns (Levels of Logic = 1)
+  Source:            SRAM_Unit/data_write16_15_1 (LATCH)
+  Destination:       data_sram<15> (PAD)
+  Source Clock:      SRAM_Unit/Mram__n04028 falling
+
+  Data Path: SRAM_Unit/data_write16_15_1 to data_sram<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.625   0.399  SRAM_Unit/data_write16_15_1 (SRAM_Unit/data_write16_15_1)
+     IOBUF:I->IO               0.000          data_sram_15_IOBUF (data_sram<15>)
+    ----------------------------------------
+    Total                      1.024ns (0.625ns logic, 0.399ns route)
+                                       (61.0% logic, 39.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'SRAM_Unit/Mram__n04029'
+  Total number of paths / destination ports: 21 / 21
+-------------------------------------------------------------------------
+Offset:              1.667ns (Levels of Logic = 2)
+  Source:            SRAM_Unit/oe (LATCH)
+  Destination:       data_sram<15> (PAD)
+  Source Clock:      SRAM_Unit/Mram__n04029 falling
+
+  Data Path: SRAM_Unit/oe to data_sram<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.625   0.399  SRAM_Unit/oe (SRAM_Unit/oe)
+     INV:I->O             16   0.146   0.497  oe_inv1_INV_0 (oe_inv)
+     IOBUF:T->IO               0.000          data_sram_15_IOBUF (data_sram<15>)
+    ----------------------------------------
+    Total                      1.667ns (0.771ns logic, 0.896ns route)
+                                       (46.3% logic, 53.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'SRAM_Unit/Mram__n04026'
+  Total number of paths / destination ports: 17 / 17
+-------------------------------------------------------------------------
+Offset:              1.024ns (Levels of Logic = 1)
+  Source:            SRAM_Unit/addr2sram_16 (LATCH)
+  Destination:       addr2sram<16> (PAD)
+  Source Clock:      SRAM_Unit/Mram__n04026 falling
+
+  Data Path: SRAM_Unit/addr2sram_16 to addr2sram<16>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.625   0.399  SRAM_Unit/addr2sram_16 (SRAM_Unit/addr2sram_16)
+     OBUF:I->O                 0.000          addr2sram_16_OBUF (addr2sram<16>)
+    ----------------------------------------
+    Total                      1.024ns (0.625ns logic, 0.399ns route)
+                                       (61.0% logic, 39.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock SRAM_Unit/Mram__n04026
+------------------+---------+---------+---------+---------+
+                  | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock      |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+------------------+---------+---------+---------+---------+
+SRAM_Unit/real_clk|         |         |    3.592|         |
+------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SRAM_Unit/Mram__n04027
+------------------+---------+---------+---------+---------+
+                  | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock      |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+------------------+---------+---------+---------+---------+
+SRAM_Unit/real_clk|         |         |    1.677|         |
+------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SRAM_Unit/Mram__n04028
+------------------+---------+---------+---------+---------+
+                  | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock      |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+------------------+---------+---------+---------+---------+
+SRAM_Unit/real_clk|         |         |    1.514|         |
+------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SRAM_Unit/Mram__n04029
+------------------+---------+---------+---------+---------+
+                  | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock      |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+------------------+---------+---------+---------+---------+
+SRAM_Unit/real_clk|         |         |    1.519|         |
+------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SRAM_Unit/real_clk
+----------------------+---------+---------+---------+---------+
+                      | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock          |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------------+---------+---------+---------+---------+
+SRAM_Unit/Mram__n04027|         |    1.054|         |         |
+----------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk
+------------------------+---------+---------+---------+---------+
+                        | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock            |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+------------------------+---------+---------+---------+---------+
+SRAM_Unit/Mram__n0402112|         |    2.612|         |         |
+SRAM_Unit/Mram__n04024  |         |    2.618|         |         |
+clk                     |    4.256|         |         |         |
+------------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.19 secs
+ 
+--> 
+
+Total memory usage is 375844 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   97 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
+

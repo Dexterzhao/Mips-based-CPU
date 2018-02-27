@@ -1,0 +1,97 @@
+
+NET "clk" CLOCK_DEDICATED_ROUTE = TRUE;
+NET "clk" LOC = E3;
+NET "rst" LOC = U9;
+NET "write" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "write" LOC = T16;
+NET "read" LOC = R10;
+
+
+# Anvyl: 1 to light
+# DP
+NET "LED_out[0]" LOC = M4;
+# CG
+NET "LED_out[1]" LOC = L6;
+NET "LED_out[2]" LOC = M2;
+NET "LED_out[3]" LOC = K3;
+NET "LED_out[4]" LOC = L4;
+NET "LED_out[5]" LOC = L5;
+# CB
+NET "LED_out[6]" LOC = N1;
+# CA
+NET "LED_out[7]" LOC = L3;
+
+# AN1
+NET "LED_ctrl[1]" LOC = M6;
+# AN0
+NET "LED_ctrl[0]" LOC = N6;
+# AN3
+NET "LED_ctrl[3]" LOC = N5;
+# AN2
+NET "LED_ctrl[2]" LOC = M3;
+# AN5
+NET "LED_ctrl[5]" LOC = N4;
+# AN4
+NET "LED_ctrl[4]" LOC = N2;
+# AN6
+NET "LED_ctrl[6]" LOC = L1;
+# AN7
+NET "LED_ctrl[7]" LOC = M1;
+
+
+NET "switch[0]" LOC = U4;
+NET "switch[1]" LOC = V2;
+NET "switch[2]" LOC = U2;
+NET "switch[3]" LOC = T3;
+NET "switch[4]" LOC = T1;
+NET "switch[5]" LOC = R3;
+NET "switch[6]" LOC = P3;
+NET "switch[7]" LOC = P4;
+
+
+# PlanAhead Generated physical constraints 
+
+NET "cs" LOC = L18;	# cautious
+NET "lb" LOC = J15;
+NET "oe" LOC = H14;
+NET "ub" LOC = J13;
+NET "we" LOC = R11;
+NET "data_sram[15]" LOC = P17;
+NET "data_sram[14]" LOC = N17;
+NET "data_sram[13]" LOC = P18;
+NET "data_sram[12]" LOC = M17;
+NET "data_sram[11]" LOC = M18;
+NET "data_sram[10]" LOC = G17;
+NET "data_sram[9]" LOC = G18;
+NET "data_sram[8]" LOC = F18;
+NET "data_sram[7]" LOC = R18;
+NET "data_sram[6]" LOC = T18;
+NET "data_sram[5]" LOC = R17;
+NET "data_sram[4]" LOC = U18;
+NET "data_sram[3]" LOC = R13;
+NET "data_sram[2]" LOC = U12;
+NET "data_sram[1]" LOC = T11;
+NET "data_sram[0]" LOC = R12;
+NET "addr2sram[22]" LOC = U13;
+NET "addr2sram[21]" LOC = M16;
+NET "addr2sram[20]" LOC = T10;
+NET "addr2sram[19]" LOC = U17;
+NET "addr2sram[18]" LOC = V17;
+NET "addr2sram[17]" LOC = M13;
+NET "addr2sram[16]" LOC = N16;
+NET "addr2sram[15]" LOC = N14;
+NET "addr2sram[14]" LOC = R15;
+NET "addr2sram[13]" LOC = U16;
+NET "addr2sram[12]" LOC = P14;
+NET "addr2sram[11]" LOC = V12;
+NET "addr2sram[10]" LOC = V14;
+NET "addr2sram[9]" LOC = U14;
+NET "addr2sram[8]" LOC = V16;
+NET "addr2sram[7]" LOC = N15;
+NET "addr2sram[6]" LOC = K13;
+NET "addr2sram[5]" LOC = K15;
+NET "addr2sram[4]" LOC = H16;
+NET "addr2sram[3]" LOC = J17;
+NET "addr2sram[2]" LOC = H15;
+NET "addr2sram[1]" LOC = H17;
+NET "addr2sram[0]" LOC = J18;

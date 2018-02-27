@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/ISE/work/uart2sram/uart2sram/loader_test_isim_beh.exe" -prj "F:/ISE/work/uart2sram/uart2sram/loader_test_beh.prj" "work.loader_test" "work.glbl" 

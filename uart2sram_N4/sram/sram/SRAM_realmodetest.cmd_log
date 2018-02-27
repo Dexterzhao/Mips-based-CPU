@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "G:/multi-cycles-version/uart2sram_N4/sram/sram/SRAM_realmodetest.xst" -ofn "G:/multi-cycles-version/uart2sram_N4/sram/sram/SRAM_realmodetest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SRAM_realmodetest.ucf -p xc7a100t-csg324-1 SRAM_realmodetest.ngc SRAM_realmodetest.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SRAM_realmodetest_map.ncd SRAM_realmodetest.ngd SRAM_realmodetest.pcf 
+par -w -intstyle ise -ol high -mt off SRAM_realmodetest_map.ncd SRAM_realmodetest.ncd SRAM_realmodetest.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml SRAM_realmodetest.twx SRAM_realmodetest.ncd -o SRAM_realmodetest.twr SRAM_realmodetest.pcf -ucf SRAM_realmodetest.ucf 
+bitgen -intstyle ise -f SRAM_realmodetest.ut SRAM_realmodetest.ncd 
+xst -intstyle ise -ifn "G:/multi-cycles-version/uart2sram_N4/sram/sram/SRAM_realmodetest.xst" -ofn "G:/multi-cycles-version/uart2sram_N4/sram/sram/SRAM_realmodetest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SRAM_realmodetest.ucf -p xc7a100t-csg324-1 SRAM_realmodetest.ngc SRAM_realmodetest.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SRAM_realmodetest_map.ncd SRAM_realmodetest.ngd SRAM_realmodetest.pcf 
+par -w -intstyle ise -ol high -mt off SRAM_realmodetest_map.ncd SRAM_realmodetest.ncd SRAM_realmodetest.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml SRAM_realmodetest.twx SRAM_realmodetest.ncd -o SRAM_realmodetest.twr SRAM_realmodetest.pcf -ucf SRAM_realmodetest.ucf 
+bitgen -intstyle ise -f SRAM_realmodetest.ut SRAM_realmodetest.ncd 
+xst -intstyle ise -ifn "G:/multi-cycles-version/uart2sram_N4/sram/sram/SRAM_realmodetest.xst" -ofn "G:/multi-cycles-version/uart2sram_N4/sram/sram/SRAM_realmodetest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SRAM_realmodetest.ucf -p xc7a100t-csg324-1 SRAM_realmodetest.ngc SRAM_realmodetest.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SRAM_realmodetest_map.ncd SRAM_realmodetest.ngd SRAM_realmodetest.pcf 
+par -w -intstyle ise -ol high -mt off SRAM_realmodetest_map.ncd SRAM_realmodetest.ncd SRAM_realmodetest.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml SRAM_realmodetest.twx SRAM_realmodetest.ncd -o SRAM_realmodetest.twr SRAM_realmodetest.pcf -ucf SRAM_realmodetest.ucf 
+bitgen -intstyle ise -f SRAM_realmodetest.ut SRAM_realmodetest.ncd 

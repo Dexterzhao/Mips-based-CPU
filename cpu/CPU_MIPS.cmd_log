@@ -1,0 +1,636 @@
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "G:/0000cpu/CPU/cpu_N4/cpu/CPU_MIPS.xst" -ofn "G:/0000cpu/CPU/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "G:/0000cpu/CPU/cpu_N4/cpu/CPU_MIPS.xst" -ofn "G:/0000cpu/CPU/cpu_N4/cpu/CPU_MIPS.syr" 
+xst -intstyle ise -ifn "G:/0000cpu/CPU/cpu_N4/cpu/CPU_MIPS.xst" -ofn "G:/0000cpu/CPU/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "G:/0000cpu/CPU/cpu_N4/cpu/CPU_MIPS.xst" -ofn "G:/0000cpu/CPU/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "F:/ISE/cpu_N4/cpu/CPU_MIPS.xst" -ofn "F:/ISE/cpu_N4/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "G:/multi-cycles-version/cpu/CPU_MIPS.xst" -ofn "G:/multi-cycles-version/cpu/CPU_MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_MIPS.ucf -p xc7a100t-csg324-1 CPU_MIPS.ngc CPU_MIPS.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CPU_MIPS_map.ncd CPU_MIPS.ngd CPU_MIPS.pcf 
+par -w -intstyle ise -ol high -mt off CPU_MIPS_map.ncd CPU_MIPS.ncd CPU_MIPS.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CPU_MIPS.twx CPU_MIPS.ncd -o CPU_MIPS.twr CPU_MIPS.pcf -ucf CPU_MIPS.ucf 
+bitgen -intstyle ise -f CPU_MIPS.ut CPU_MIPS.ncd 
+xst -intstyle ise -ifn "G:/multi-cycles-version/cpu/CPU_MIPS.xst" -ofn "G:/multi-cycles-version/cpu/CPU_MIPS.syr" 

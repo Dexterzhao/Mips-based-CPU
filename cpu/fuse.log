@@ -1,0 +1,14 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o G:/multi-cycles-version/cpu/Arithmetic_Logic_Unit_isim_beh.exe -prj G:/multi-cycles-version/cpu/Arithmetic_Logic_Unit_beh.prj work.Arithmetic_Logic_Unit work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "G:/multi-cycles-version/cpu/Arithmetic_Logic_Unit.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 194364 KB
+Fuse CPU Usage: 250 ms
+ERROR:Simulator:754 - Signal EXCEPTION_ACCESS_VIOLATION received
+ERROR:Simulator:754 - Signal EXCEPTION_ACCESS_VIOLATION received
+Compiling module Arithmetic_Logic_Unit
